@@ -1,0 +1,40 @@
+$greyscale-1: #000000;
+$greyscale-2: #222222;
+$greyscale-3: #3D3D3D;
+$greyscale-4: #505050;
+$greyscale-5: #858585;
+$greyscale-6: #BCBCBC;
+$greyscale-7: #DCDCDC;
+$greyscale-8: #EAEAEA;
+
+//scheme one
+$pink: #ef9dbe;
+$orange: #f59c4d;
+$green: #72d7ce;
+
+//scheme two
+$purple: #8A65AA;
+$green-2: #67D3BE;
+$coral: #FF6C81;
+$orange-2: #f38f38;
+
+
+@mixin flex-vc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin flex-ccc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-rc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

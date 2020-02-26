@@ -1,0 +1,46 @@
+
+ /* ScrollOut Animation */
+  
+    /* slide item */
+  
+    /* .three {
+      -webkit-transform: translateZ(1px) translateY(50%);
+      transform: translateZ(1px) translateY(50%);
+  } */
+  
+  [data-scroll] {
+      transition: all 1s;
+  }
+  [data-scroll="in"] {
+      opacity: 1;
+      transform: translateX(0);
+  }
+  [data-scroll="out"] {
+      opacity: 0;
+      transform: translateX(-300);
+  }
+  
+  .animOne {
+      transition-delay: 200ms;
+  }
+  
+  .animTwo {
+      transition-delay: 400ms;
+  }
+  
+  .animThree {
+      transition-delay: 600ms;
+  }
+  
+ 
+// [data-aos^=fade][data-aos^=fade] {
+//     opacity: 0;
+//     transition-property: opacity, transform;
+//     transition: all 1s;
+// }
+
+// [data-aos^=fade][data-aos^=fade].aos-animate {
+//     opacity: 1;
+//     transform: translateZ(0)
+// }
+

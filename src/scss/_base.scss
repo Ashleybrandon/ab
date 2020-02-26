@@ -1,0 +1,32 @@
+@import "_vars";
+
+  * {
+    font-family: lota-regular, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*:focus {
+  outline:0!important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: $greyscale-2;
+
+}
+
+
+h1 {
+    font-size: 48px;
+    line-height: 110%;
+    text-indent: -0.03em;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 18px;
+    color: $greyscale-5;
+  }

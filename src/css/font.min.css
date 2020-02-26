@@ -1,0 +1,13 @@
+@font-face {
+  font-family: lota-regular;
+  src: url(../font/LotaGrotesqueAlt3-Regular.woff2) format("woff2");
+  src: url(../font/LotaGrotesqueAlt3-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: lota-bold;
+  src: url(../font/LotaGrotesqueAlt3-Bold.woff2) format("woff2");
+  src: url(../font/LotaGrotesqueAlt3-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }

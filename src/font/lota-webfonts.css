@@ -1,0 +1,99 @@
+
+@font-face{
+    font-family:lota-thin;
+    src:url(lota-type/LotaGrotesqueAlt3-Thin.eot);
+    src:url(lota-type/LotaGrotesqueAlt3-Thin.eot?#iefix) format("embedded-opentype"),url(/lota-type/LotaGrotesqueAlt3-Thin.ttf) format("truetype"),url(lota-type/LotaGrotesqueAlt3-Thin.svg#LotaGrotesqueAlt3-Thin) format("svg");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-thin-italic;
+    src:url(LotaGrotesqueAlt3-ThinIt.eot);
+    src:url(LotaGrotesqueAlt3-ThinIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-ThinIt.woff) format("woff"),url(LotaGrotesqueAlt3-ThinIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-ThinIt.svg#LotaGrotesqueAlt3-ThinIt) format("svg");
+    font-weight:100;
+    font-style:italic
+}
+@font-face{
+    font-family:lota-ex-light;
+    src:url(LotaGrotesqueAlt3-ExLight.eot);
+    src:url(LotaGrotesqueAlt3-ExLight.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-ExLight.woff) format("woff"),url(LotaGrotesqueAlt3-ExLight.ttf) format("truetype"),url(LotaGrotesqueAlt3-ExLight.svg#LotaGrotesqueAlt3-ExLight) format("svg");
+    font-weight:200;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-ex-light-italic;
+    src:url(LotaGrotesqueAlt3-ExLightIt.eot);
+    src:url(LotaGrotesqueAlt3-ExLightIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-ExLightIt.woff) format("woff"),url(LotaGrotesqueAlt3-ExLightIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-ExLightIt.svg#LotaGrotesqueAlt3-ExLightIt) format("svg");
+    font-weight:200;
+    font-style:italic
+}
+@font-face{
+    font-family:lota-light;
+    src:url(LotaGrotesqueAlt3-Light.eot);
+    src:url(LotaGrotesqueAlt3-Light.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-Light.woff) format("woff"),url(LotaGrotesqueAlt3-Light.ttf) format("truetype"),url(LotaGrotesqueAlt3-Light.svg#LotaGrotesqueAlt3-Light) format("svg");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-light-italic;
+    src:url(LotaGrotesqueAlt3-LightIt.eot);
+    src:url(LotaGrotesqueAlt3-LightIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-LightIt.woff) format("woff"),url(LotaGrotesqueAlt3-LightIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-LightIt.svg#LotaGrotesqueAlt3-LightIt) format("svg");
+    font-weight:300;
+    font-style:italic
+}
+@font-face{
+    font-family:lota-regular;
+    src:url(LotaGrotesqueAlt3-Regular.eot);
+    src:url(LotaGrotesqueAlt3-Regular.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-Regular.woff) format("woff"),url(LotaGrotesqueAlt3-Regular.ttf) format("truetype"),url(LotaGrotesqueAlt3-Regular.svg#LotaGrotesqueAlt3-Regular) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-regular-italic;
+    src:url(LotaGrotesqueAlt3-RegularIt.eot);
+    src:url(LotaGrotesqueAlt3-RegularIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-RegularIt.woff) format("woff"),url(LotaGrotesqueAlt3-RegularIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-RegularIt.svg#LotaGrotesqueAlt3-RegularIt) format("svg");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:lota-semi-bold;
+    src:url(LotaGrotesqueAlt3-SemiBold.eot);
+    src:url(LotaGrotesqueAlt3-SemiBold.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-SemiBold.woff) format("woff"),url(LotaGrotesqueAlt3-SemiBold.ttf) format("truetype"),url(LotaGrotesqueAlt3-SemiBold.svg#LotaGrotesqueAlt3-SemiBold) format("svg");
+    font-weight:600;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-semi-bold-italic;
+    src:url(LotaGrotesqueAlt3-SemiBoldIt.eot);
+    src:url(LotaGrotesqueAlt3-SemiBoldIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-SemiBoldIt.woff) format("woff"),url(LotaGrotesqueAlt3-SemiBoldIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-SemiBoldIt.svg#LotaGrotesqueAlt3-SemiBoldIt) format("svg");
+    font-weight:600;
+    font-style:italic
+}
+@font-face{
+    font-family:lota-bold;
+    src:url(LotaGrotesqueAlt3-Bold.eot);
+    src:url(LotaGrotesqueAlt3-Bold.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-Bold.woff) format("woff"),url(LotaGrotesqueAlt3-Bold.ttf) format("truetype"),url(LotaGrotesqueAlt3-Bold.svg#LotaGrotesqueAlt3-Bold) format("svg");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-bold-italic;
+    src:url(LotaGrotesqueAlt3-BoldIt.eot);
+    src:url(LotaGrotesqueAlt3-BoldIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-BoldIt.woff) format("woff"),url(LotaGrotesqueAlt3-BoldIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-BoldIt.svg#LotaGrotesqueAlt3-BoldIt) format("svg");
+    font-weight:700;
+    font-style:italic
+}
+@font-face{
+    font-family:lota-black;
+    src:url(LotaGrotesqueAlt3-Black.eot);
+    src:url(LotaGrotesqueAlt3-Black.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-Black.woff) format("woff"),url(LotaGrotesqueAlt3-Black.ttf) format("truetype"),url(LotaGrotesqueAlt3-Black.svg#LotaGrotesqueAlt3-Black) format("svg");
+    font-weight:900;
+    font-style:normal
+}
+@font-face{
+    font-family:lota-black-italic;
+    src:url(LotaGrotesqueAlt3-BlackIt.eot);
+    src:url(LotaGrotesqueAlt3-BlackIt.eot?#iefix) format("embedded-opentype"),url(LotaGrotesqueAlt3-BlackIt.woff) format("woff"),url(LotaGrotesqueAlt3-BlackIt.ttf) format("truetype"),url(LotaGrotesqueAlt3-BlackIt.svg#LotaGrotesqueAlt3-BlackIt) format("svg");
+    font-weight:900;
+    font-style:italic
+}
