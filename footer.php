@@ -28,7 +28,10 @@
     </a>
     <!-- end Back to Top button -->
     
-  <?php wp_footer(); ?>
+  <?php wp_footer(); 
+    
+//global $template; echo basename($template); ?>
+
 
 </body>
 </html>

@@ -10,6 +10,11 @@ add_theme_support('custom-background');
 add_theme_support('custom-header');
 add_theme_support('custom-thumbnails');
 
+// add_action('wp_head', 'show_template');
+// function show_template() {
+//     global $template;
+//     echo basename($template);
+// }
 
 //enable widgets
 
