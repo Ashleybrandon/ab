@@ -93,7 +93,7 @@ register_nav_menus( array(
 function ab_scripts() {
 
     wp_enqueue_style('custom', THEMEROOT . '/src/css/style.min.css', false);
-    wp_enqueue_script( 'theme-script', THEMEROOT . '/src/js/script.min.js',  '1', true );
+    wp_enqueue_script( 'theme-script', THEMEROOT . '/src/js/script.min.js',  '1', true, true );
     //load jquery in the blog-based pages
 
 }
