@@ -151,12 +151,15 @@ img {
 .gallery-item--three {
 grid-column: span 2;
 grid-row: span 1;
-background-color: $green-2;
+background-color: $orange-2;
 }
 .gallery-item--four {
 grid-column: span 2;
 grid-row: span 1;
-background-color: $coral;
+background-color: $greyscale-2;
+svg {
+  fill: #ffffff;
+}
 }
 .gallery-item--five {
 grid-column: span 3;

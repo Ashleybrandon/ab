@@ -384,12 +384,14 @@ section .gallery {
 .gallery-item--three {
   grid-column: span 2;
   grid-row: span 1;
-  background-color: #67D3BE; }
+  background-color: #f38f38; }
 
 .gallery-item--four {
   grid-column: span 2;
   grid-row: span 1;
-  background-color: #FF6C81; }
+  background-color: #222222; }
+  .gallery-item--four svg {
+    fill: #ffffff; }
 
 .gallery-item--five {
   grid-column: span 3;
