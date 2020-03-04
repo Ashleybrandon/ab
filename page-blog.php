@@ -8,6 +8,8 @@
 get_header(); ?>
 
 <div class="container">
+
+<?php get_template_part( 'layouts/ajax-search', 'page' ); ?>
     
     <?php 
     $args = array(

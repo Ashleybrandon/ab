@@ -13,7 +13,7 @@
             <div class="row">
                         <!-- <nav><h5>ashbrandon</h5></nav> -->
         <!-- <h1><span>Launch</span> your<br>business online</h1> -->
-        <h1>I'm Ash, a web designer and developer focused on building websites that get results</h1>
+        <!-- <h1>I'm Ash, a web designer and developer focused on building websites that get results</h1> -->
         <!-- <h1>London-based web designer and developer</h1> -->
         <!-- <a href="#services">Read more</a> -->
         <!-- <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorem ea animi, magni dicta labore.</h1> -->
