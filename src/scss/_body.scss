@@ -1,6 +1,6 @@
 @import "_vars";
 
-.home-header {
+#home-header {
     height: 100vh;
     @include flex-vc;
 
@@ -18,14 +18,6 @@
   .card-text p{
     padding: 0 12px;
   }
-}
-
-  
-header {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 section {
@@ -144,14 +136,14 @@ grid-row: span 1;
 grid-column: span 3;
 grid-row: span 2;
 img {
-  object-position: right;
-  transform: scale(1.1);
+  object-position: 110% -69px;
+  transform: scale(1.5);
 }
 }
 .gallery-item--three {
 grid-column: span 2;
 grid-row: span 1;
-background-color: $orange-2;
+background-color: $green-2;
 }
 .gallery-item--four {
 grid-column: span 2;

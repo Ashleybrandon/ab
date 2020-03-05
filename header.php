@@ -46,7 +46,7 @@
     <nav class="container main-nav" id="main-nav">
         <div class="row">
             <div class="col-4 menu-logo">
-                <!-- <a href="#" class="main-logo">ashbrandon_</a> -->
+                <a href="<?php echo get_home_url(); ?>" class="main-logo">Lorem_</a>
 
             </div>
         <div class="col-4">

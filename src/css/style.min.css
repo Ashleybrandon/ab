@@ -150,10 +150,16 @@ nav.main-nav {
   width: 100%;
   max-width: 100%;
   z-index: 11;
-  background-color: #fff; }
+  background-color: #fff;
+  top: -30px;
+  transition: top 300ms; }
   nav.main-nav a.main-logo {
     margin: 18px 0;
     padding: 5px 0; }
+
+#body nav.main-nav.nav-fixed {
+  position: fixed;
+  top: 0 !important; }
 
 a.main-logo {
   text-decoration: none;
@@ -163,11 +169,6 @@ a.main-logo {
 
 #dark-mode-icon {
   font-weight: 400; }
-
-.nav-fixed {
-  position: fixed;
-  top: 0;
-  transition: top 1s linear; }
 
 * {
   font-family: lota-regular, Arial, Helvetica, sans-serif;
@@ -192,6 +193,9 @@ h1 {
 p {
   font-size: 18px;
   color: #858585; }
+
+img {
+  max-width: 100%; }
 
 .container {
   width: 100%;
@@ -253,7 +257,7 @@ p {
 .col-12 {
   width: 100%; }
 
-.home-header {
+#home-header {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -268,12 +272,6 @@ p {
 
 #home-services .card-text p {
   padding: 0 12px; }
-
-header {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
 
 section {
   height: 100vh;
@@ -373,13 +371,13 @@ section .gallery {
   grid-column: span 3;
   grid-row: span 2; }
   .gallery-item--two img {
-    object-position: right;
-    transform: scale(1.1); }
+    object-position: 110% -69px;
+    transform: scale(1.5); }
 
 .gallery-item--three {
   grid-column: span 2;
   grid-row: span 1;
-  background-color: #f38f38; }
+  background-color: #67D3BE; }
 
 .gallery-item--four {
   grid-column: span 2;
@@ -478,6 +476,9 @@ svg.fa-git-alt path {
     display: inline-block; }
     #menu-blog-categories li a {
       text-decoration: none; }
+
+.col-4.post-feed a {
+  text-decoration: none; }
 
 /* ScrollOut Animation */
 /* slide item */

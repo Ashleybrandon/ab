@@ -40,7 +40,8 @@ get_header(); ?>
             echo '<a href=' . get_the_permalink() . '>';
             echo  the_post_thumbnail();
             echo '<p>' . get_the_title() . '</p>';
-            echo '</a>';
+            echo '<p>' . get_the_date() . '</p>';
+            echo '</a>'; 
             echo '</div>';
 
         }
