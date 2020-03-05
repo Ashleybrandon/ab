@@ -12,6 +12,11 @@
     <div class="container">
         <div class="row">
             <h1>single</h1>
+            <?php 
+
+            the_content();
+
+            ?>
         </div>
     </div>
 </header>

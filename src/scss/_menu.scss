@@ -71,5 +71,7 @@
 
   .nav-fixed {
     position: fixed;
+    top: 0;
+    transition: top 1s linear;
   }
   

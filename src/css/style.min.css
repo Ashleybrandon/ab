@@ -165,7 +165,9 @@ a.main-logo {
   font-weight: 400; }
 
 .nav-fixed {
-  position: fixed; }
+  position: fixed;
+  top: 0;
+  transition: top 1s linear; }
 
 * {
   font-family: lota-regular, Arial, Helvetica, sans-serif;
