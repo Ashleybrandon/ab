@@ -16,7 +16,6 @@
   .back_to_top {
     
     svg {
-      
       path {
         fill: $greyscale-2;
         transition: fill 500ms;
@@ -27,7 +26,6 @@
  
   .back_to_top:hover {
     svg {
-      
       path {
         fill: $greyscale-1;
       }

@@ -10,6 +10,18 @@ get_header(); ?>
 <div class="container">
 
 <?php get_template_part( 'layouts/ajax-search', 'page' ); ?>
+
+<?php wp_nav_menu( array( 
+              'theme_location' => 'blog-menu', 
+              'depth'           => 2
+            //   'container'       => 'div',
+            //   'container_class' => 'ml-auto',
+            //   'container_id'    => 'bs-example-navbar-collapse-2',
+            //   'menu_class'      => 'navbar-nav ml-auto',
+              
+                ) 
+            ); 
+        ?>
     
     <?php 
     $args = array(
@@ -25,9 +37,12 @@ get_header(); ?>
             $the_query->the_post();
 
             echo '<div class="col-4 post-feed">';
+            echo '<a href=' . get_the_permalink() . '>';
             echo  the_post_thumbnail();
             echo '<p>' . get_the_title() . '</p>';
+            echo '</a>';
             echo '</div>';
+
         }
         
         echo '</div>';

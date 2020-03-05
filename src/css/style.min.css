@@ -94,15 +94,6 @@ a img.aligncenter {
   z-index: 100000;
   /* Above WP toolbar. */ }
 
-.col-4.post-feed {
-  padding: 10px; }
-  .col-4.post-feed img {
-    max-width: 100%;
-    height: auto; }
-
-.col-4.post-feed:nth-child(3n) {
-  clear: left; }
-
 @font-face {
   font-family: lota-regular;
   src: url(../font/LotaGrotesqueAlt3-Regular.woff2) format("woff2");
@@ -156,7 +147,6 @@ nav ul li {
 
 nav.main-nav {
   font-weight: 900;
-  position: fixed;
   width: 100%;
   max-width: 100%;
   z-index: 11;
@@ -173,6 +163,9 @@ a.main-logo {
 
 #dark-mode-icon {
   font-weight: 400; }
+
+.nav-fixed {
+  position: fixed; }
 
 * {
   font-family: lota-regular, Arial, Helvetica, sans-serif;
@@ -465,6 +458,24 @@ svg.fa-git-alt path {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+
+.col-4.post-feed {
+  padding: 10px; }
+  .col-4.post-feed img {
+    max-width: 100%;
+    height: auto; }
+
+.col-4.post-feed:nth-child(3n) {
+  clear: left; }
+
+#menu-blog-categories {
+  list-style: none;
+  padding: 0;
+  text-align: center; }
+  #menu-blog-categories li {
+    display: inline-block; }
+    #menu-blog-categories li a {
+      text-decoration: none; }
 
 /* ScrollOut Animation */
 /* slide item */

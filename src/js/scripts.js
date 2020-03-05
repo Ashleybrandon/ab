@@ -18,8 +18,10 @@ var body = document.getElementById('body');
 var lightBulb = document.getElementById('dark-mode-icon');
 var navToggle = document.getElementById('nav-toggle');
 var mobileMenu = document.getElementById('mobile-menu');
+var mainNav = document.getElementById('main-nav');
+var scrollPosition = window.scrollY;
 
-/* dark mode */
+//dark mode
 
 lightBulb.addEventListener('click', function(e){
 
@@ -32,7 +34,7 @@ lightBulb.addEventListener('click', function(e){
     e.preventDefault();
 });
 
-/* mobile menu */
+//mobile menu
 
 navToggle.addEventListener('click', function(){
 
@@ -44,6 +46,21 @@ navToggle.addEventListener('click', function(){
         navToggle.classList.add('on');
     }
 });
+
+//make nav fixed on scroll
+
+window.addEventListener('scroll', function() {
+
+    scrollPosition = window.scrollY;
+
+    if (scrollPosition >= 75) {
+        mainNav.classList.add('nav-fixed');
+    } else {
+        mainNav.classList.remove('nav-fixed');
+    }
+
+});
+
 
 
 //smooth scroll

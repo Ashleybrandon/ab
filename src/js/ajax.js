@@ -53,6 +53,7 @@ jQuery(function($){
 
   //missing filterizr code
 
+  
      jQuery( '#recipes > div').not(':first').hide();
      jQuery( '#filter .menu li:first-child').addClass('active');
 

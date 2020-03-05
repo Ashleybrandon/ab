@@ -82,6 +82,7 @@ if ( ! function_exists( 'ab_setup' ) ) {
 register_nav_menus( array(
     'main-menu'       => __( 'main-menu', 'ab' ),
     'secondary-menu'        => __( 'secondary-menu', 'ab' ),	
+    'blog-menu'        => __( 'blog-menu', 'ab' ),	
 ) );
 
 
