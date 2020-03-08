@@ -17,10 +17,11 @@
 </header>
 <div class="container">
     <div class="row">
-        <div class="col-9">
+    <div class="col-1"></div>
+        <div class="col-8">
+        <?php the_post_thumbnail('single-image', array('class' => 'thumbnail')); ?>
     <?php
 		while ( have_posts() ) : the_post();
-
         the_content( sprintf(
             /* translators: %s: Name of current post. */
             wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'gourmet-artistry' ), array( 'span' => array( 'class' => array() ) ) ),

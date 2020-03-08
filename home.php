@@ -13,16 +13,16 @@
             <div class="row">
                         <!-- <nav><h5>ashbrandon</h5></nav> -->
         <!-- <h1><span>Launch</span> your<br>business online</h1> -->
-        <!-- <h1>I'm Ash, a web designer and developer focused on building websites that get results</h1> -->
+        <h1>I'm Ash, a web designer and developer focused on building websites that get results</h1>
+        <p><a href="#services-anchor">Read more</a></p>
         <!-- <h1>London-based web designer and developer</h1> -->
         <!-- <a href="#services">Read more</a> -->
-        <!-- <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorem ea animi, magni dicta labore.</h1> -->
-
+        
             </div>
         </div>
-
+    <div id="services-anchor"></div>
     </header>
-
+    
     <section id="home-services">
         <div class="container">
             <div class="row">
@@ -93,7 +93,7 @@
                             </div>
                             <div class="card-text">
                                 <p>
-                                    I know what to do to help you get ranked on Google and help you setup adwords or facebook ad campaigns.
+                                    I know what to do to get ranked on Google, and improve your Google and Facebook ad campaigns.
                                 </p>
                             </div>
                         </div>
@@ -112,14 +112,14 @@
     <section id="gallery">
         <div class="gallery">
             <div data-scroll class="gallery-item gallery-item--one animOne">
-                <img src="<?php echo THEMEROOT ?>/src/imgs/over-the-cage.png" class="" alt="">
+                <img src="<?php echo IMAGES ?>/camcord.jpg" class="" alt="">
                 <a href="">
                     <h4>test headline</h4>
                     <p>test paragraph text</p>
                 </a>
             </div>
             <div data-scroll class="gallery-item gallery-item--two animTwo">
-                <img src="<?php echo THEMEROOT ?>/src/imgs/bad-gorilla.png" class="" alt="">
+                <img src="<?php echo IMAGES ?>/space-window.jpg" class="" alt="">
                 <a href="">
                     <h4>test headline</h4>
                     <p>test paragraph text</p>
@@ -132,21 +132,15 @@
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="codepen" class="svg-inline--fa fa-codepen fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#FFFFFF" d="M502.285 159.704l-234-156c-7.987-4.915-16.511-4.96-24.571 0l-234 156C3.714 163.703 0 170.847 0 177.989v155.999c0 7.143 3.714 14.286 9.715 18.286l234 156.022c7.987 4.915 16.511 4.96 24.571 0l234-156.022c6-3.999 9.715-11.143 9.715-18.286V177.989c-.001-7.142-3.715-14.286-9.716-18.285zM278 63.131l172.286 114.858-76.857 51.429L278 165.703V63.131zm-44 0v102.572l-95.429 63.715-76.857-51.429L234 63.131zM44 219.132l55.143 36.857L44 292.846v-73.714zm190 229.715L61.714 333.989l76.857-51.429L234 346.275v102.572zm22-140.858l-77.715-52 77.715-52 77.715 52-77.715 52zm22 140.858V346.275l95.429-63.715 76.857 51.429L278 448.847zm190-156.001l-55.143-36.857L468 219.132v73.714z"></path></svg>
             </div>
             <div data-scroll class="gallery-item gallery-item--five animThree">
-                <img src="<?php echo THEMEROOT ?>/src/imgs/camcord.jpg" class="" alt="">
+                <img src="<?php echo IMAGES ?>/over-the-cage.png" class="" alt="">
                 <a href="">
                         <h4>test headline</h4>
                         <p>test paragraph text</p>
                 </a>
             </div>
             <div data-scroll class="gallery-item gallery-item--six animTwo">
-            <img src="<?php echo THEMEROOT ?>/src/imgs/satellite.jpg" class="" alt="">
-                <!-- <img src="src/imgs/coders.png" class="" alt=""> -->
+            <img src="<?php echo IMAGES ?>/bad-gorilla.png" class="" alt="">
 
-                <!-- <svg class="ab-logo" width="24" height="24" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle class="logo-circle" cx="60" cy="60" r="60" fill="white"/>
-                    <path d="M64.9998 74V64.9H91.9098C94.3798 64.9 96.4598 66.98 96.4598 69.45C96.4598 71.92 94.3798 74 91.9098 74H64.9998ZM58.4998 100H64.9998V80.5H91.9098C98.0198 80.5 102.96 75.56 102.96 69.45C102.96 63.34 98.0198 58.4 91.9098 58.4H64.9998V29.8H90.6098C93.0798 29.8 95.1598 31.88 95.1598 34.35C95.1598 36.69 93.2098 38.77 90.9998 38.9C95.1599 38.9 97.7598 39.42 100.1 40.07C101.01 38.38 101.66 36.43 101.66 34.35C101.66 28.24 96.7198 23.3 90.6098 23.3H58.4998V100Z"class="logo-type" fill="#111111"/>
-                    <path class="logo-type" d="M16.0898 85H23.4998L33.5098 65.5H64.1898L45.2098 28.58L16.0898 85ZM36.7598 59L45.2098 42.75L53.5298 59H36.7598Z" fill="#111111"/>
-                    </svg> -->
                 <a href="">
                         <h4>test headline</h4>
                         <p>test paragraph text</p>

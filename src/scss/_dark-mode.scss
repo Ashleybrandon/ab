@@ -2,7 +2,32 @@
 
  .dark-mode {
     background-color: $greyscale-2;
-    color: #fff;
+    color: #fff;    
+  .card.web-design svg {
+    circle {
+      fill: $coral;
+    }
+    path {
+      fill: #ffffff;
+    }
+  }
+  .card.web-development svg {
+    circle {
+      fill: $green-2;
+    }
+    path {
+      fill: #ffffff;
+    }
+  }
+  .card.digital-marketing svg {
+    circle {
+      fill: $orange-2;
+    }
+    path {
+      fill: #ffffff;
+    }
+  }
+
   }
   
   .dark-mode nav {
