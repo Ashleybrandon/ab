@@ -130,8 +130,12 @@ function ab_scripts() {
     wp_enqueue_style('custom', STYLES . '/style.min.css', false);
     wp_enqueue_script( 'theme-script', SCRIPTS . '/script.min.js',  '1', true, true );
 
+    if (is_front_page()) {
+        wp_enqueue_script( 'geo', SCRIPTS . '/geo.js',  true, true );
+     }
+
     if (is_page_template( 'page-blog.php' )) {
-        wp_enqueue_script( 'ajax_search', SCRIPTS . '/ajax.js', array('jquery'), '2', true, true );
+        wp_enqueue_script( 'ajax_search', SCRIPTS . '/ajax.js', array('jquery'), '3', true, true );
      }
 
 

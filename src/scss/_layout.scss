@@ -3,10 +3,10 @@
     padding: 0 1rem;
 }
 
-.row {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+// .row {
+//     max-width: 1200px;
+//     margin: 0 auto;
+// }
 
 .row:before,
 .row:after {
@@ -15,7 +15,7 @@
     clear: both;
 }
 
-[class*="col"] {
+[class*="col-"] {
     float: left;
     min-height: 1px;
     height: auto;

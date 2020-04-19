@@ -33,7 +33,7 @@ function scripts(){
 	return gulp.src([
 		'src/js/scroll-out.min.js',
 		'src/js/scripts.js',
-		'src/js/btt-button.js'
+		'src/js/btt-button.js',
 		])	
 	.pipe(concat('script.js'))
 	.pipe(uglify({

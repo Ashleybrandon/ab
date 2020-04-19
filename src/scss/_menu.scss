@@ -29,6 +29,10 @@
         transform: rotate(-45deg) translate(-12px, -5px);
         transition: all 0.4s;
   }
+
+  .container.main-nav {
+    background-color: #ffffff;
+  }
   
   nav ul {
     list-style: none;
@@ -51,27 +55,19 @@
     width: 100%;
     max-width: 100%;
     z-index: 11;
-    background-color: #fff;
-    top: -30px;
-    transition: top 300ms;
+    position: fixed;
     a.main-logo {
+      text-decoration: none;
+      display: inline-block;
+      color: $greyscale-2;
+      font-weight: 900;
       margin: 16px 0;
       padding: 5px 0;
     }
+  
 
   }
 
-  #body nav.main-nav.nav-fixed {
-    position: fixed;
-    top: 0!important;
-  }
-
-  a.main-logo {
-    text-decoration: none;
-    display: inline-block;
-    color: $greyscale-2;
-    font-weight: 900;
-  }
 
   #dark-mode-icon {
     font-weight: 400;

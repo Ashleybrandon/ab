@@ -37,34 +37,7 @@
       left: 0!important;
     }
 
-    //gallery 
-    .gallery-item--one {
-      grid-column: span 4;
-      grid-row: span 1;
-      }
-      .gallery-item--two {
-      grid-column: span 3;
-      grid-row: span 1;
-      }
-      .gallery-item--three {
-      grid-column: span 3;
-      grid-row: span 1;
-      background-color: $green;
-      }
-      .gallery-item--four {
-      grid-column: span 4;
-      grid-row: span 1;
-      background-color: $greyscale-2;
-      }
-      .gallery-item--five {
-      grid-column: span 4;
-      grid-row: span 1;
-      }
-      .gallery-item--six {
-      grid-column: span 3;
-      grid-row: span 1;
-      }
-
+  
 
     #home-services {
       .col-6 {
