@@ -128,10 +128,10 @@ add_action('wp_ajax_advancedSearch', 'advancedSearch');
 function ab_scripts() {
 
     wp_enqueue_style('custom', STYLES . '/style.min.css', false);
-    wp_enqueue_script( 'theme-script', SCRIPTS . '/script.min.js',  '1', true, true );
+    // wp_enqueue_script( 'theme-script', SCRIPTS . '/script.min.js',  '1', true, true );
 
     if (is_front_page()) {
-        wp_enqueue_script( 'geo', SCRIPTS . '/geo.js',  true, true );
+        wp_enqueue_script( 'geo', SCRIPTS . '/geo.js','','1.1', true);
      }
 
     if (is_page_template( 'page-blog.php' )) {

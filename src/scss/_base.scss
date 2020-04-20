@@ -16,13 +16,16 @@ html, body {
 
 }
 
-
 h1 {
-    font-size: 40px;
-    line-height: 110%;
-    text-indent: -0.03em;
-    margin: 0 auto;
-    font-weight: 700;
+    font-size: 46px;
+    @include heading-font;
+
+  }
+
+h2 {
+    font-size: 26px;
+    @include heading-font;
+
   }
   
   p {

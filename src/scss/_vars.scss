@@ -21,6 +21,12 @@ $orange-2: #f38f38;
 $coral-2: #FF1A69;
 
 
+@mixin heading-font {
+  line-height: 110%;
+  text-indent: -0.03em;
+  font-weight: 700;
+}
+
 @mixin flex-vc {
   display: flex;
   flex-direction: column;
