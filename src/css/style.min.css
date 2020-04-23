@@ -334,7 +334,6 @@ svg.fa-git-alt:hover path {
     display: grid;
     grid-template-columns: repeat(12, 1fr); }
     .selected-work .section-inner .item-2 .block-1 {
-      background-color: #858585;
       background-image: url("../imgs/bad-gorilla.png");
       background-size: cover;
       background-repeat: no-repeat;
@@ -366,11 +365,26 @@ svg.fa-git-alt:hover path {
       grid-column: 6/13;
       grid-row: 1;
       height: 300px;
+      z-index: 2;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      background-image: url("../imgs/over-the-cage.png");
       z-index: 1; }
+      .selected-work .section-inner .item-1 .block-1 p, .selected-work .section-inner .item-3 .block-1 p {
+        background-color: #EAEAEA; }
+      .selected-work .section-inner .item-1 .block-1 h2, .selected-work .section-inner .item-3 .block-1 h2 {
+        margin: 0; }
     .selected-work .section-inner .item-1 .block-2, .selected-work .section-inner .item-3 .block-2 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       grid-column: 1/7;
       grid-row: 1;
       height: 300px;
+      z-index: 1;
       z-index: 2;
       justify-content: space-between;
       display: flex;
