@@ -6,8 +6,8 @@ customElements.define('x-graph', class extends HTMLElement {
       <style>
 
       .graph {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         position: relative;
         float: left;
       }

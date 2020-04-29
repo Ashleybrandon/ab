@@ -1,7 +1,7 @@
 @import "_vars";
 
 .geo-pattern {
-  max-width: 480px;
+  max-width: 400px;
   align-self: flex-start;
   margin-top: 63px;
 }
@@ -142,8 +142,7 @@
     }
     .item-1 {
       margin: 150px 0;
-      display: grid;
-      grid-template-columns: repeat(12 , 1fr);
+      @include work-item;
       .block-1{
         background-image: url('../imgs/over-the-cage.png');
         background-position: right;
@@ -152,13 +151,6 @@
         grid-row: 1;
         height: 300px;
         z-index: 1;
-        p {
-          background-color: $greyscale-8;
-          color: $greyscale-2;
-        }
-        h2 {
-          margin: 0;
-        }
       }
       .block-2{
         justify-content: space-between;
@@ -169,14 +161,14 @@
         grid-row: 1;
         height: 300px;
         z-index: 2;
-        p {
-          background-color: $greyscale-8;
-        }
-        h2 {
-          margin: 0;
-        }
       }
-
+      p {
+        padding: 16px;
+        background-color: $greyscale-7;
+      }
+      h2 {
+        margin: 0;
+      }
     }
 
     .item-2 {
@@ -201,12 +193,14 @@
         flex-direction: column;
         align-items: flex-end;
         text-align: right;
-        p {
-          background-color: $greyscale-8;
-        }
-        h2 {
-          margin: 0;
-        }
+
+      }
+      p {
+        padding: 16px;
+        background-color: $greyscale-7;
+      }
+      h2 {
+        margin: 0;
       }
 
     }
