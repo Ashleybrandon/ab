@@ -1,13 +1,13 @@
 customElements.define('x-graph', class extends HTMLElement {
   constructor() {
     super();
-    let num = parseInt(this.getAttribute('numbers'), 24) ;
+    let num = parseInt(this.getAttribute('numbers'), 16) ;
     this.attachShadow({ mode: 'open' }).innerHTML = `
       <style>
 
       .graph {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         position: relative;
         float: left;
       }
