@@ -200,7 +200,7 @@ img {
 
 .row {
   width: 98%;
-  max-width: 1120px;
+  max-width: 960px;
   margin: 0 auto; }
 
 .row:before,
@@ -256,8 +256,8 @@ img {
   width: 100%; }
 
 .geo-pattern {
-  max-width: 480px;
-  height: 480px;
+  max-width: 400px;
+  height: 400px;
   margin: 0 0 0 auto; }
 
 .svg-inline--fa path {
@@ -267,7 +267,6 @@ img {
   width: 40px;
   position: fixed;
   bottom: 0px;
-  bottom: 10px;
   left: 40px;
   right: auto;
   z-index: 10; }
@@ -287,6 +286,34 @@ img {
         transform: translateY(-3px); }
       .left-contact-icons ul li a .svg-inline--fa path {
         fill: #222222; }
+
+.right-contact-email {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  left: auto;
+  z-index: 10; }
+  .right-contact-email .right-contact-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .right-contact-email a {
+    color: #222222;
+    text-decoration: none;
+    display: flex;
+    writing-mode: vertical-rl; }
+    .right-contact-email a span {
+      padding: 6px;
+      font-size: 14px; }
+
+.left-contact-icons:after, .right-contact-email a:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: #222;
+  margin: 0px auto; }
 
 .home-header {
   width: 100%;
@@ -440,6 +467,14 @@ footer.main-footer ul {
 
 .back_to_top:hover svg path {
   fill: #000000; }
+
+@media (max-width: 1200px) {
+  .row {
+    max-width: 800px; }
+  .left-contact-icons {
+    left: 10px; }
+  .right-contact-email {
+    right: 10px; } }
 
 @media (max-width: 768px) {
   [class*="col-"] {

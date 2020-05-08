@@ -1,20 +1,20 @@
 @import "_vars";
 
 .geo-pattern {
-  max-width: 480px;
-  height: 480px;
+  max-width: 400px;
+  height: 400px;
   margin: 0 0 0 auto;
 }
 
 .svg-inline--fa {
   path {
     fill: $greyscale-2;
-  }}
+  }
+}
   .left-contact-icons {
     width: 40px;
     position: fixed;
     bottom: 0px;
-    bottom: 10px;
     left: 40px;
     right: auto;
     z-index: 10;
@@ -48,6 +48,39 @@
   
   }
 
+
+  .right-contact-email {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    left: auto;
+    z-index: 10;
+    .right-contact-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    a {
+      color: $greyscale-2;
+      text-decoration: none;
+      display: flex;
+      writing-mode: vertical-rl;
+      span {
+        padding: 6px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .left-contact-icons:after, .right-contact-email a:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: #222;
+    margin: 0px auto;
+}
 
 .home-header {
   width: 100%;

@@ -8,7 +8,9 @@
 ?>
 
 <footer class="main-footer">
-        <div class="container">
+
+<div class="col-12" style="text-align:center;">Ashley Brandon&nbsp;&nbsp;<?php echo date('Y'); ?></div>
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-6">
                 <svg class="header-logo" width="42" height="42" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +49,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </footer>
 
 

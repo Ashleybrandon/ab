@@ -1,6 +1,20 @@
   @import "_vars";
 
 
+@media(max-width: 1200px) {
+  .row {
+    max-width: 800px;
+}
+
+.left-contact-icons {
+  left: 10px;
+}
+
+.right-contact-email {
+  right: 10px;
+}
+}
+
   @media(max-width: 768px) {
     [class*="col-"] {
       float: none;
