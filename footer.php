@@ -9,7 +9,7 @@
 
 <footer class="main-footer">
 
-<div class="col-12" style="text-align:center;">Ashley Brandon&nbsp;&nbsp;<?php echo date('Y'); ?></div>
+<div class="col-12" style="text-align:center; padding: 20px 0;">Ashley Brandon&nbsp;&nbsp;<?php echo date('Y'); ?></div>
         <!-- <div class="container">
             <div class="row">
                 <div class="col-6">

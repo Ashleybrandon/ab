@@ -1,8 +1,13 @@
 @import "_vars";
 
+
+.home section {
+  padding: 150px 0;
+}
+
 .geo-pattern {
-  max-width: 400px;
-  height: 400px;
+  max-width: 480px;
+  height: 480px;
   margin: 0 0 0 auto;
 }
 
@@ -39,13 +44,10 @@
             path {
               fill: $greyscale-2;
             }
-  
           }
-  
         }
       }
     }
-  
   }
 
 

@@ -100,6 +100,7 @@
 </section>
 <section class="selected-work">
     <div class="row">
+    <h2>Selected Projects</h2>
         <div class="item-1">
             <div class="block-1">
             </div>
@@ -135,7 +136,7 @@
         </div>
     </div>
 </section>
-<section class="more" style="width: 700px; max-width:80%; margin: 0 auto; text-align: center; padding: 10px 0 150px 0;">
+<section class="more" style="width: 700px; max-width:80%; margin: 0 auto; text-align: center; padding: 10px 0 300px 0;">
 <h2>There's more to come</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates sint beatae, asperiores corporis, culpa eligendi exercitationem molestias accusantium amet libero quos veritatis quod enim doloremque impedit animi quae eius?</p>
 </section>
