@@ -162,6 +162,9 @@ nav.main-nav {
       nav.main-nav .row .col-6 .header-logo {
         display: block; }
 
+#body nav.container .row {
+  max-width: 100%; }
+
 * {
   font-family: lota-regular, Arial, Helvetica, sans-serif;
   box-sizing: border-box; }
@@ -175,12 +178,18 @@ html, body {
   color: #222222; }
 
 h1 {
-  font-size: 46px;
+  font-size: 48px;
   line-height: 110%;
   text-indent: -0.03em;
   font-weight: 700; }
 
 h2 {
+  font-size: 34px;
+  line-height: 110%;
+  text-indent: -0.03em;
+  font-weight: 700; }
+
+h3 {
   font-size: 26px;
   line-height: 110%;
   text-indent: -0.03em;
@@ -195,7 +204,7 @@ img {
 
 .container {
   width: 100%;
-  padding: 0 50px; }
+  padding: 0 40px; }
 
 .row {
   width: 98%;
@@ -258,8 +267,8 @@ img {
   padding: 150px 0; }
 
 .geo-pattern {
-  max-width: 480px;
-  height: 480px;
+  max-width: 400px;
+  height: 400px;
   margin: 0 0 0 auto; }
 
 .svg-inline--fa path {
@@ -323,9 +332,23 @@ img {
   display: flex;
   align-items: center; }
 
-.about-image img {
-  width: 240px;
+.about-image {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  overflow: hidden;
   border-radius: 50%; }
+  .about-image img {
+    max-width: 250px;
+    filter: grayscale(1) brightness(1.2); }
+  .about-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1b46f5;
+    opacity: 0.4;
+    height: 236px;
+    width: 236px; }
 
 .about-skills ul.col-6 {
   list-style: none; }
@@ -364,7 +387,7 @@ img {
     line-height: 140%;
     color: #858585; }
   .selected-work .row .item-1 {
-    margin: 150px 0;
+    margin: 100px 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr); }
     .selected-work .row .item-1 .block-1 {
@@ -387,7 +410,7 @@ img {
     .selected-work .row .item-1 p {
       padding: 16px;
       background-color: #DCDCDC; }
-    .selected-work .row .item-1 h2 {
+    .selected-work .row .item-1 h3 {
       margin: 0; }
   .selected-work .row .item-2 {
     display: grid;
@@ -414,7 +437,7 @@ img {
     .selected-work .row .item-2 p {
       padding: 16px;
       background-color: #DCDCDC; }
-    .selected-work .row .item-2 h2 {
+    .selected-work .row .item-2 h3 {
       margin: 0; }
   .selected-work .row a {
     width: auto;

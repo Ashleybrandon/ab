@@ -46,10 +46,12 @@
 <header class="home-header row">
     <div class="header-text col-6">
         <h1>Ashley Brandon<br>Web developer</h1>
+        <p>I'm a web developer based in London who specialises in building effective websites and web-apps. Scroll to read more.</p>
+        <!-- <a href="#">Read More</a> -->
     </div>
     <div class="col-6">
         <div class="geo-pattern">
-            <a-graph numbers="10"></b-graph>
+            <a-graph numbers="10"></a-graph>
         </div>
     </div>
 </header>
@@ -57,8 +59,11 @@
 <!-- <div class="geo-bg"  style="position: absolute;z-index: -1;left: 0; max-width: 240px;"><b-graph numbers="10"></b-graph></div> -->
     <div class="section-inner row">
 
-        <div class="about-image col-5">
+        <div class="col-5">
+        <div class="about-image">
             <img src="<?php echo IMAGES ?>/paper-crown.jpeg" alt="ashley brandon">
+            <div class="overlay"></div>
+        </div>
         </div>
         <div class="about-text col-7">
             <h2>About</h2>
@@ -100,14 +105,14 @@
 </section>
 <section class="selected-work">
     <div class="row">
-    <h2>Selected Projects</h2>
+    <h2>Recent work</h2>
         <div class="item-1">
             <div class="block-1">
             </div>
             <div class="block-2">
                 <div class="block-title">
                     <span>Selected project</span>
-                    <h2>Over the Cage</h2>
+                    <h3>Over the Cage</h3>
                 </div>
                 <p>Over the Cage is a combat sports news/blog website, that was built using a Wordpress child theme. It includes a custom plugin that displays upcoming events from a REST API.</p>
                 <a href="#">
@@ -123,7 +128,7 @@
             <div class="block-2">
                 <div class="block-title">
                     <span>Selected project</span>
-                    <h2>Bad Gorilla</h2>
+                    <h3>Bad Gorilla</h3>
                 </div>
                 <p>Bad Gorilla is a tech-gadget ecommerce store built using a Wordpress child theme. It is plugged into Woocommerce, and has been setup to automate parts of the order fulfillment process.</p>
                 <a href="#"> 

@@ -59,8 +59,6 @@
     position: fixed;
     .row {
       height: 100%;
-      // display: flex;
-      // align-items: center;
       .col-6 {
         height: 100%;
         .header-logo {
@@ -71,6 +69,8 @@
 
     }
   
-
+#body nav.container .row {
+  max-width: 100%;
+}
 
   

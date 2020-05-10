@@ -6,8 +6,8 @@
 }
 
 .geo-pattern {
-  max-width: 480px;
-  height: 480px;
+  max-width: 400px;
+  height: 400px;
   margin: 0 0 0 auto;
 }
 
@@ -93,9 +93,23 @@
 
 
 .about-image {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  overflow: hidden;
+  border-radius: 50%;
   img{
-    width: 240px;
-    border-radius: 50%;
+    max-width: 250px;
+    filter: grayscale(1) brightness(1.2);
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(27, 70, 245);
+    opacity: 0.4;
+    height: 236px;
+    width: 236px;
   }
 }
 
@@ -169,7 +183,7 @@
       }
     }
     .item-1 {
-      margin: 150px 0;
+      margin: 100px 0;
       @include work-item;
       .block-1{
         background-image: url('../imgs/over-the-cage.png');
@@ -194,7 +208,7 @@
         padding: 16px;
         background-color: $greyscale-7;
       }
-      h2 {
+      h3 {
         margin: 0;
       }
     }
@@ -227,7 +241,7 @@
         padding: 16px;
         background-color: $greyscale-7;
       }
-      h2 {
+      h3 {
         margin: 0;
       }
 
