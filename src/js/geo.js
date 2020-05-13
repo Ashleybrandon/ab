@@ -31,7 +31,7 @@ customElements.define('a-graph', class extends HTMLElement {
     const graphs = this.shadowRoot.querySelectorAll('.graph');
     [].forEach.call(graphs, g => {
       g.style.setProperty('--color', this._random([
-        '#858585', '#BCBCBC', '#DCDCDC', '#EAEAEA'
+        '#F2EFEA', '#FC7753', '#66D7D1', '#403d58'
        ]));
       g.style.setProperty('--corner', this._random([
         '100% 0 0 0', '0 100% 0 0',
