@@ -56,13 +56,15 @@
     </div>
 </header>
 <section class="home-about">
-<!-- <div class="geo-bg"  style="position: absolute;z-index: -1;left: 0; max-width: 240px;"><b-graph numbers="10"></b-graph></div> -->
+
     <div class="section-inner row">
 
         <div class="col-5">
         <div class="about-image">
-            <img src="<?php echo IMAGES ?>/paper-crown.jpeg" alt="ashley brandon">
-            <div class="overlay"></div>
+            <!-- <img src="echo IMAGES /paper-crown.jpeg" alt="ashley brandon"> -->
+        
+            <div class="geo-about" style="height: 500px; width: 300px;"><b-graph numbers="10"></b-graph></div>
+            
         </div>
         </div>
         <div class="about-text col-7">
