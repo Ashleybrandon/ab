@@ -34,8 +34,13 @@ $greyscale-8: #EEEEEE;
   align-items: center;
 }
 
+@mixin container {
+  width: 84%;
+  max-width: 960px;
+  margin: 0 auto;
+}
 
-@mixin work-item {
+@mixin grid-section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }

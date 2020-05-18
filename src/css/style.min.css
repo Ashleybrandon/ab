@@ -138,8 +138,7 @@ a img.aligncenter {
 nav ul {
   list-style: none;
   padding: 0;
-  text-align: right;
-  margin: 16px 0; }
+  margin: 0; }
 
 nav ul li {
   display: inline-block;
@@ -161,9 +160,11 @@ nav.main-nav {
       height: 100%; }
       nav.main-nav .row .col-6 .header-logo {
         display: block; }
-
-#body nav.container .row {
-  max-width: 100%; }
+      nav.main-nav .row .col-6 .menu {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; }
 
 * {
   font-family: lota-regular, Arial, Helvetica, sans-serif;
@@ -211,8 +212,8 @@ img {
   padding: 0 40px; }
 
 .row {
-  width: 98%;
-  max-width: 960px;
+  width: 84%;
+  max-width: 1020px;
   margin: 0 auto; }
 
 .row:before,
@@ -268,7 +269,7 @@ img {
   width: 100%; }
 
 .home section {
-  padding: 150px 0; }
+  padding: 150px 0 0 0; }
 
 .geo-pattern {
   max-width: 400px;
@@ -364,19 +365,21 @@ img {
     .about-skills ul.col-6 li svg {
       margin: 0 4px; }
 
-.selected-work p {
-  color: #222222; }
-
-.selected-work .row {
+.selected-work {
+  width: 84%;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 0 0 150px 0; }
-  .selected-work .row .block-title span {
+  .selected-work p {
+    color: #222222; }
+  .selected-work .block-title span {
     line-height: 140%;
     color: #858585; }
-  .selected-work .row .item-1 {
+  .selected-work .item-1 {
     margin: 100px 0 180px 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr); }
-    .selected-work .row .item-1 .block-1 {
+    .selected-work .item-1 .block-1 {
       background-image: url("../imgs/over-the-cage.png");
       background-position: right;
       background-size: 110%;
@@ -384,7 +387,7 @@ img {
       grid-row: 1;
       height: 300px;
       z-index: 1; }
-    .selected-work .row .item-1 .block-2 {
+    .selected-work .item-1 .block-2 {
       justify-content: space-between;
       display: flex;
       flex-direction: column;
@@ -393,15 +396,15 @@ img {
       grid-row: 1;
       height: 300px;
       z-index: 2; }
-    .selected-work .row .item-1 p {
+    .selected-work .item-1 p {
       padding: 16px;
       background-color: #EAEAEA; }
-    .selected-work .row .item-1 h3 {
+    .selected-work .item-1 h3 {
       margin: 0; }
-  .selected-work .row .item-2 {
+  .selected-work .item-2 {
     display: grid;
     grid-template-columns: repeat(12, 1fr); }
-    .selected-work .row .item-2 .block-1 {
+    .selected-work .item-2 .block-1 {
       background-image: url("../imgs/bad-gorilla.png");
       background-size: cover;
       background-repeat: no-repeat;
@@ -410,7 +413,7 @@ img {
       grid-row: 1;
       height: 300px;
       z-index: 1; }
-    .selected-work .row .item-2 .block-2 {
+    .selected-work .item-2 .block-2 {
       grid-column: 6/13;
       grid-row: 1;
       height: 300px;
@@ -420,17 +423,43 @@ img {
       flex-direction: column;
       align-items: flex-end;
       text-align: right; }
-    .selected-work .row .item-2 p {
+    .selected-work .item-2 p {
       padding: 16px;
       background-color: #EAEAEA; }
-    .selected-work .row .item-2 h3 {
+    .selected-work .item-2 h3 {
       margin: 0; }
-  .selected-work .row a {
+  .selected-work a {
+    display: flex;
     width: auto;
     text-decoration: none;
     color: #222222; }
-    .selected-work .row a span {
-      display: inline-block; }
+    .selected-work a span {
+      margin: 0 0 0 6px; }
+
+.home section.more {
+  padding: 250px 0 250px 0; }
+  .home section.more .more-title {
+    width: 84%;
+    max-width: 960px;
+    margin: 0 auto; }
+  .home section.more .more-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 84%;
+    max-width: 960px;
+    margin: 0 auto; }
+    .home section.more .more-content p {
+      grid-column: 1/8;
+      grid-row: 1/4;
+      z-index: 2;
+      color: #222222;
+      background-color: #EAEAEA;
+      margin: 0;
+      padding: 16px; }
+    .home section.more .more-content .geo-more {
+      grid-column: 7/13;
+      grid-row: 3/7;
+      z-index: 1; }
 
 footer.main-footer ul {
   list-style: none;
@@ -480,6 +509,8 @@ footer.main-footer ul {
   fill: #222222; }
 
 @media (max-width: 1200px) {
+  .container.main-nav {
+    padding: 0; }
   .row {
     max-width: 800px; }
   .left-contact-icons {
@@ -487,11 +518,74 @@ footer.main-footer ul {
   .right-contact-email {
     right: 10px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
+  .left-contact-icons {
+    left: 0; }
+  .right-contact-email {
+    right: 0; }
+  .home section {
+    padding: 0; }
+  .container.main-nav {
+    padding: 0; }
+    .container.main-nav .row {
+      width: 100%; }
+      .container.main-nav .row .col-6 {
+        width: 100%;
+        text-align: center; }
+        .container.main-nav .row .col-6 ul {
+          text-align: center;
+          background-color: #fff;
+          margin: 0;
+          padding: 12px 0; }
+  .home-about .col-5 {
+    width: 100%; }
+    .home-about .col-5 .geo-about {
+      margin: 0 auto; }
+  .home section.more .more-content p, .home section.more .more-content .geo-more {
+    grid-column: 1/13; }
+  .home-header .col-6 {
+    display: none; }
+  .home-header .header-text.col-6 {
+    display: block;
+    max-width: 620px; }
   [class*="col-"] {
     float: none;
+    width: 85%;
     margin: 0 auto;
     text-align: center; }
+  .geo-pattern {
+    display: none; }
+  .selected-work .item-1 {
+    margin: 100px 0 180px 0;
+    display: block; }
+    .selected-work .item-1 p {
+      padding: 16px;
+      background-color: #EAEAEA; }
+    .selected-work .item-1 h3 {
+      margin: 0; }
+    .selected-work .item-1 .block-2 {
+      justify-content: space-around; }
+  .selected-work .item-2 {
+    display: block; }
+    .selected-work .item-2 p {
+      padding: 16px;
+      background-color: #EAEAEA; }
+    .selected-work .item-2 h3 {
+      margin: 0; }
+    .selected-work .item-2 .block-2 {
+      justify-content: space-around; }
+  .selected-work a {
+    width: auto;
+    text-decoration: none;
+    color: #222222; }
+    .selected-work a span {
+      display: inline-block; }
+  .home section.more .more-content {
+    display: block; }
+  .home section.more {
+    padding: 100px 0 250px 0; } }
+
+@media (max-width: 768px) {
   ul {
     padding: 0; }
   .container {

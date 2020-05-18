@@ -2,7 +2,7 @@
 
 
 .home section {
-  padding: 150px 0;
+  padding: 150px 0 0 0;
 }
 
 .geo-pattern {
@@ -75,7 +75,7 @@
     }
   }
 
-  .left-contact-icons:after, .right-contact-email a:after {
+.left-contact-icons:after, .right-contact-email a:after {
     content: "";
     display: block;
     width: 1px;
@@ -91,27 +91,6 @@
   align-items: center;
 }
 
-
-// .about-image {
-//   position: relative;
-//   width: 236px;
-//   height: 236px;
-//   overflow: hidden;
-//   border-radius: 50%;
-//   img{
-//     max-width: 250px;
-//     filter: grayscale(1) brightness(1.2);
-//   }
-//   .overlay {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     background-color: rgb(27, 70, 245);
-//     opacity: 0.4;
-//     height: 236px;
-//     width: 236px;
-//   }
-// }
 
 .about-skills {
   ul.col-6 {
@@ -171,11 +150,11 @@
 
 
 .selected-work {
+  @include container;
+  padding: 0 0 150px 0;
   p {
     color: $greyscale-2;
   }
-  .row {
-    padding: 0 0 150px 0;
     .block-title {
       span {
         line-height: 140%;
@@ -184,7 +163,7 @@
     }
     .item-1 {
       margin: 100px 0 180px 0;
-      @include work-item;
+      @include grid-section;
       .block-1{
         background-image: url('../imgs/over-the-cage.png');
         background-position: right;
@@ -214,7 +193,7 @@
     }
 
     .item-2 {
-      @include work-item;
+      @include grid-section;
       .block-1{
         background-image: url('../imgs/bad-gorilla.png');
         background-size: cover;
@@ -248,16 +227,41 @@
     }
 
     a {
+      display: flex;
       width: auto;
       text-decoration: none;
       color: $greyscale-2;
       span {
-        display: inline-block;
+        margin: 0 0 0 6px;
       }
     }
+}
 
+.home section.more {
+  padding: 250px 0 250px 0;
+  .more-title {
+    @include container;
+  }
+  .more-content {
+    @include grid-section;
+    @include container;
+    p {
+      grid-column: 1/8;
+      grid-row: 1/4;
+      z-index: 2;
+      color: $greyscale-2;
+      background-color: $greyscale-7;
+      margin: 0;
+      padding: 16px;
+    }
+    .geo-more {
+      grid-column: 7/13;
+      grid-row: 3/7;
+      z-index: 1;
+    }
   }
 }
+
 
 footer.main-footer {
   ul {

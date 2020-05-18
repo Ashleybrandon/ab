@@ -106,7 +106,6 @@
     </div>
 </section>
 <section class="selected-work">
-    <div class="row">
     <h2>Recent work</h2>
         <div class="item-1">
             <div class="block-1">
@@ -118,7 +117,7 @@
                 </div>
                 <p>Over the Cage is a combat sports news/blog website, that was built using a Wordpress child theme. It includes a custom plugin that displays upcoming events from a REST API.</p>
                 <a href="#">
-                    <span>view project</span>  
+                    <span>View project</span>  
                     <span>
                         <svg width="20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="external-link-alt" class="svg-inline--fa fa-external-link-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg>
                     </span>
@@ -134,18 +133,23 @@
                 </div>
                 <p>Bad Gorilla is a tech-gadget ecommerce store built using a Wordpress child theme. It is plugged into Woocommerce, and has been setup to automate parts of the order fulfillment process.</p>
                 <a href="#"> 
-                <span>view project</span>  
+                <span>View project</span>  
                 <span>
                     <svg width="20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="external-link-alt" class="svg-inline--fa fa-external-link-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg>
                 </span>
                 </a>
             </div>
         </div>
-    </div>
 </section>
-<section class="more" style="width: 700px; max-width:80%; margin: 0 auto; text-align: center; padding: 10px 0 300px 0;">
-<h2>There's more to come</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates sint beatae, asperiores corporis, culpa eligendi exercitationem molestias accusantium amet libero quos veritatis quod enim doloremque impedit animi quae eius?</p>
+
+<section class="more">
+    <div class="more-title">
+    <h2>There's more to come...</h2>
+    </div>
+    <div class="more-content">
+        <p>This version of my site is temporary, and an exercise in learning new tech, such as in CSS Grid. There will be new iterations/a rebuild soon. And maybe a blog, we&#39;ll see..&nbsp;<br>Feel free to get in touch about anything website&#8211;related. I&#39;ll most likely respond within a few hours.</p>
+        <div class="geo-more"><c-graph numbers="10"></c-graph></div>
+    </div>
 </section>
 
 

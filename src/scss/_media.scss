@@ -2,6 +2,10 @@
 
 
 @media(max-width: 1200px) {
+
+  .container.main-nav {
+    padding: 0;
+}
   .row {
     max-width: 800px;
 }
@@ -15,12 +19,127 @@
 }
 }
 
-  @media(max-width: 768px) {
-    [class*="col-"] {
-      float: none;
-      margin: 0 auto;
-      text-align: center;
+
+@media(max-width: 960px) {
+
+  .left-contact-icons {
+    left: 0;
   }
+  
+  .right-contact-email {
+    right: 0;
+  }
+
+  .home section {
+    padding: 0;
+}
+  .container.main-nav {
+    .row {
+      width: 100%;
+      .col-6 {
+        width: 100%;
+        text-align: center;
+        ul {
+          text-align: center;
+          background-color: #fff;
+          margin: 0;
+          padding: 12px 0;
+        }
+      }
+    }
+    padding: 0;
+}
+
+.home-about {
+  .col-5 {
+    width: 100%;
+    .geo-about {
+      margin: 0 auto;
+    }
+  }
+}
+
+  .home section.more .more-content p, .home section.more .more-content .geo-more {
+    grid-column: 1/13;
+  }
+
+  .home-header .col-6 {
+    display: none;
+  }
+  .home-header .header-text.col-6 {
+    display: block;
+    max-width: 620px;
+  }
+
+  [class*="col-"] {
+    float: none;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.geo-pattern {
+  display: none;
+}
+
+.selected-work {
+    .item-1 {
+      margin: 100px 0 180px 0;
+      display: block;
+
+      p {
+        padding: 16px;
+        background-color: $greyscale-7;
+      }
+      h3 {
+        margin: 0;
+      }
+      .block-2 {
+        justify-content: space-around;
+      }
+    }
+
+    .item-2 {
+      display: block;
+
+      p {
+        padding: 16px;
+        background-color: $greyscale-7;
+      }
+      h3 {
+        margin: 0;
+      }
+
+      .block-2 {
+        justify-content: space-around;
+      }
+    }
+
+    a {
+      width: auto;
+      text-decoration: none;
+      color: $greyscale-2;
+      span {
+        display: inline-block;
+      }
+    }
+}
+
+.home section.more {
+
+  .more-content {
+    display: block;
+
+  }
+}
+
+.home section.more {
+  padding: 100px 0 250px 0;
+}
+
+}
+
+  @media(max-width: 768px) {
 
   ul {
     padding: 0;
@@ -36,4 +155,5 @@ footer.main-footer {
     text-align: center;
   }
 }
-  }
+  
+}
