@@ -91,6 +91,13 @@
   align-items: center;
 }
 
+.home-about {
+  .col-7 {
+    h2 {
+      margin-top: 0;
+    }
+  }
+}
 
 .about-skills {
   ul.col-6 {

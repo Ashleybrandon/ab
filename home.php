@@ -43,10 +43,10 @@
     </div>
 </div>
 
-<header class="home-header row">
+<header class="home-header row" id="home">
     <div class="header-text col-6">
         <h1>Ashley Brandon<br>Web developer</h1>
-        <p>I'm a web developer based in London who specialises in building effective websites and web-apps. Scroll to read more.</p>
+        <p>I'm a web developer based in London who specialises in building effective websites and web-apps. <a href="#about">Scroll</a> to read more.</p>
         <!-- <a href="#">Read More</a> -->
     </div>
     <div class="col-6">
@@ -55,7 +55,7 @@
         </div>
     </div>
 </header>
-<section class="home-about">
+<section class="home-about" id="about">
 
     <div class="section-inner row">
 
@@ -105,7 +105,7 @@
         </div>
     </div>
 </section>
-<section class="selected-work">
+<section class="selected-work" id="work">
     <h2>Recent work</h2>
         <div class="item-1">
             <div class="block-1">
@@ -142,7 +142,7 @@
         </div>
 </section>
 
-<section class="more">
+<section class="more" id="more">
     <div class="more-title">
     <h2>There's more to come...</h2>
     </div>

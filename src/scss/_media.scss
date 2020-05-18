@@ -22,6 +22,8 @@
 
 @media(max-width: 960px) {
 
+
+
   .left-contact-icons {
     left: 0;
   }
@@ -48,6 +50,10 @@
       }
     }
     padding: 0;
+}
+
+nav.main-nav .row .col-6 .menu {
+  justify-content: center;
 }
 
 .home-about {
@@ -137,6 +143,10 @@
   padding: 100px 0 250px 0;
 }
 
+.main-footer .col-12 {
+  float: left;
+  width: 100%;
+}
 }
 
   @media(max-width: 768px) {

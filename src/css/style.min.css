@@ -166,6 +166,9 @@ nav.main-nav {
         align-items: center;
         justify-content: flex-end; }
 
+.menu-main-menu-container {
+  height: 100%; }
+
 * {
   font-family: lota-regular, Arial, Helvetica, sans-serif;
   box-sizing: border-box; }
@@ -206,6 +209,9 @@ ul li {
 
 img {
   max-width: 100%; }
+
+a {
+  color: #2C20CB; }
 
 .container {
   width: 100%;
@@ -336,6 +342,9 @@ img {
   height: 100vh;
   display: flex;
   align-items: center; }
+
+.home-about .col-7 h2 {
+  margin-top: 0; }
 
 .about-skills ul.col-6 {
   list-style: none; }
@@ -537,6 +546,8 @@ footer.main-footer ul {
           background-color: #fff;
           margin: 0;
           padding: 12px 0; }
+  nav.main-nav .row .col-6 .menu {
+    justify-content: center; }
   .home-about .col-5 {
     width: 100%; }
     .home-about .col-5 .geo-about {
@@ -583,7 +594,10 @@ footer.main-footer ul {
   .home section.more .more-content {
     display: block; }
   .home section.more {
-    padding: 100px 0 250px 0; } }
+    padding: 100px 0 250px 0; }
+  .main-footer .col-12 {
+    float: left;
+    width: 100%; } }
 
 @media (max-width: 768px) {
   ul {
