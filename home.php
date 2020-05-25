@@ -63,7 +63,7 @@
         <div class="about-image">
             <!-- <img src="echo IMAGES /paper-crown.jpeg" alt="ashley brandon"> -->
         
-            <div class="geo-about" style="height: 500px; width: 300px;"><b-graph numbers="10"></b-graph></div>
+            <div class="geo-about"><b-graph numbers="10"></b-graph></div>
             
         </div>
         </div>

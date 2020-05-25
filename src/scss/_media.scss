@@ -17,12 +17,23 @@
 .right-contact-email {
   right: 10px;
 }
+
+nav.main-nav .row .col-6 {
+  padding: 0 0 0 10px;
+}
 }
 
 
 @media(max-width: 960px) {
 
+  .row {
+    width: 90%;
+    max-width: 90%;
+  }
 
+  nav.main-nav .row .col-6 {
+    padding: 0 0 0 0;
+  }
 
   .left-contact-icons {
     left: 0;
@@ -56,19 +67,18 @@ nav.main-nav .row .col-6 .menu {
   justify-content: center;
 }
 
-.home-about {
-  .col-5 {
-    width: 100%;
-    .geo-about {
-      margin: 0 auto;
-    }
-  }
+.about-skills.row {
+  margin: 0 auto;
 }
 
   .home section.more .more-content p, .home section.more .more-content .geo-more {
     grid-column: 1/13;
   }
 
+  .geo-more {
+    width: 80%;
+    margin: 0 auto;
+  }
   .home-header .col-6 {
     display: none;
   }
@@ -79,7 +89,7 @@ nav.main-nav .row .col-6 .menu {
 
   [class*="col-"] {
     float: none;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -89,8 +99,9 @@ nav.main-nav .row .col-6 .menu {
 }
 
 .selected-work {
+  margin: 150px auto auto auto;
     .item-1 {
-      margin: 100px 0 180px 0;
+      margin: 0 0 30px 0;
       display: block;
 
       p {
@@ -140,7 +151,7 @@ nav.main-nav .row .col-6 .menu {
 }
 
 .home section.more {
-  padding: 100px 0 250px 0;
+  padding: 100px 0 300px 0;
 }
 
 .main-footer .col-12 {
@@ -160,10 +171,84 @@ nav.main-nav .row .col-6 .menu {
     padding: 0 20px;
 }
 
+
 footer.main-footer {
   ul {
     text-align: center;
   }
 }
-  
+
+}
+
+
+
+
+  @media(max-width: 580px) {
+
+.right-contact-email, .left-contact-icons {
+  display: none;
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+h2 {
+  font-size: 30px;
+
+}
+
+h3 {
+  font-size: 22px;
+
+}
+
+p {
+  font-size: 16px;
+  color: $greyscale-4;
+  line-height: 140%;
+}
+
+ul li {
+  font-size: 16px;
+}
+
+.home-about {
+  .geo-about {
+    margin: 0 auto 200px auto;
+    height: 210px;
+    width: 210px;
+  }
+}
+
+
+
+.home section.more .more-content .geo-more {
+  display: block;
+  margin: auto;
+  width: 280px;
+
+}
+
+.selected-work {
+  width: 90%;
+  max-width: 560px;
+}
+
+footer.mobile-footer {
+  display: block;
+  text-align: center;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 0 8px;
+    }
+  }
+}
+footer.main-footer {
+  display: none;
+}
+
 }

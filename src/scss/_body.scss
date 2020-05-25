@@ -71,9 +71,14 @@
       span {
         padding: 6px;
         font-size: 14px;
+        transition: all 300ms;
+        &:hover {
+          transform: translateY(-3px);
+        }
       }
     }
   }
+
 
 .left-contact-icons:after, .right-contact-email a:after {
     content: "";
@@ -97,9 +102,15 @@
       margin-top: 0;
     }
   }
+  .geo-about {
+    height: 500px; 
+    width: 300px;
+    margin: 0 auto;
+  }
 }
 
-.about-skills {
+.about-skills.row {
+  margin: auto 0;
   ul.col-6 {
     list-style: none;
       li {
@@ -173,6 +184,7 @@
       @include grid-section;
       .block-1{
         background-image: url('../imgs/over-the-cage.png');
+        background-repeat: no-repeat;
         background-position: right;
         background-size: 110%;
         grid-column: 7/13;
@@ -203,7 +215,7 @@
       @include grid-section;
       .block-1{
         background-image: url('../imgs/bad-gorilla.png');
-        background-size: cover;
+        background-size: 110%;
         background-repeat: no-repeat;
         background-position: center;
         grid-column: 1/7;
@@ -241,7 +253,13 @@
       span {
         margin: 0 0 0 6px;
       }
+
     }
+}
+
+a:hover svg.fa-external-link-alt  {
+transform: translateX(3px);
+transition: 300ms all ease;
 }
 
 .home section.more {
@@ -279,4 +297,8 @@ footer.main-footer {
       padding: 6px;
     }
   }
+}
+
+footer.mobile-footer {
+  display: none;
 }

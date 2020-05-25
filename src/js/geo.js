@@ -20,6 +20,14 @@ customElements.define('a-graph', class extends HTMLElement {
         background: var(--color, #fff);
       }
 
+      @media(max-width:580px) {
+        .graph {
+          width: 70px;
+          height: 70px;
+  
+        }
+      }
+
       </style>
       ${ '<div class="graph"></div>'.repeat(num) }
     `;
@@ -64,6 +72,14 @@ customElements.define('b-graph', class extends HTMLElement {
         background: var(--color, #fff);
       }
 
+      @media(max-width:580px) {
+        .graph {
+          width: 70px;
+          height: 70px;
+  
+        }
+      }
+
       </style>
       ${ '<div class="graph"></div>'.repeat(num) }
     `;
@@ -105,6 +121,15 @@ customElements.define('c-graph', class extends HTMLElement {
         height: 100%;
         border-radius: var(--corner, '100% 0 0 0');
         background: var(--color, #fff);
+      }
+
+      @media(max-width:580px) {
+        .graph {
+          width: 70px;
+          height: 70px;
+  
+        }
+   
       }
 
       </style>
